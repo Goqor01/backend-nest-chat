@@ -23,8 +23,8 @@ export class UserService {
       relations: { fromMessage: true },
       where: {
         fromMessage: {
-          fromId: 77,
-          toId: 85,
+          fromId: 5,
+          toId: 2,
         },
       },
     });
